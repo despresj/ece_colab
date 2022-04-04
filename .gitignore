@@ -9,3 +9,5 @@ logs/
 data_clean/data_for_graphics/
 misc_data/
 data_clean/taxi.csv
+notebooks/__pycache__/
+notebooks/helper_functions.py
