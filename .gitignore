@@ -4,3 +4,8 @@ saved_models/
 notebooks/dev.ipynb
 notebooks/debug_gan.py
 notebooks/terminal_use.ipynb
+.DS_Store
+logs/
+data_clean/data_for_graphics/
+misc_data/
+data_clean/taxi.csv
