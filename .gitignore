@@ -11,3 +11,7 @@ misc_data/
 data_clean/taxi.csv
 notebooks/__pycache__/
 notebooks/helper_functions.py
+.Rproj.user
+ece_colab.Rproj
+data_clean/graphics/
+graphics/graphics.R
