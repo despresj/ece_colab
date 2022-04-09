@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.18)  29 MAR 2022 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.18)  5 APR 2022 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,10 +1192,10 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <11.33994> not available
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8.09999> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 16.
 Package epstopdf Info: Source file: <MSU-Wordmark-White.eps>
-(epstopdf)                    date: 2022-03-29 19:54:32
+(epstopdf)                    date: 2022-04-04 09:58:54
 (epstopdf)                    size: 446502 bytes
 (epstopdf)             Output file: <MSU-Wordmark-White-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-03-29 19:55:07
+(epstopdf)                    date: 2022-04-04 09:58:54
 (epstopdf)                    size: 8623 bytes
 (epstopdf)             Command: <repstopdf --outfile=MSU-Wordmark-White-eps-con
 verted-to.pdf MSU-Wordmark-White.eps>
@@ -1207,45 +1207,53 @@ File: MSU-Wordmark-White-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: MSU-Wordmark-White-eps-converted-to.pdf  used on input
  line 16.
 (pdftex.def)             Requested size: 890.37137pt x 296.8145pt.
-LaTeX Font Info:    Calculating math sizes for size <33.59> on input line 191.
+LaTeX Font Info:    Calculating math sizes for size <33.59> on input line 194.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <33.59> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 191.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 194.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <23.5129> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 191.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 194.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <16.795> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 191.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 194.
 <spartans.jpg, id=16, 81.30376pt x 111.41624pt>
 File: spartans.jpg Graphic file (type jpg)
 <use spartans.jpg>
-Package pdftex.def Info: spartans.jpg  used on input line 191.
+Package pdftex.def Info: spartans.jpg  used on input line 194.
 (pdftex.def)             Requested size: 81.30354pt x 111.41597pt.
+<fig1.png, id=17, 1156.32pt x 578.16pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 194.
+(pdftex.def)             Requested size: 1156.31718pt x 578.15858pt.
 File: spartans.jpg Graphic file (type jpg)
 <use spartans.jpg>
-Package pdftex.def Info: spartans.jpg  used on input line 191.
+Package pdftex.def Info: spartans.jpg  used on input line 194.
 (pdftex.def)             Requested size: 299.26913pt x 410.22075pt.
 
 (./project_poster.bbl
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <19.44> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 8.
 )
+Overfull \vbox (469.39256pt too high) detected at line 194
+ []
+
 Package epstopdf Info: Source file: <MSU-Wordmark-White.eps>
-(epstopdf)                    date: 2022-03-29 19:54:32
+(epstopdf)                    date: 2022-04-04 09:58:54
 (epstopdf)                    size: 446502 bytes
 (epstopdf)             Output file: <MSU-Wordmark-White-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-03-29 19:55:07
+(epstopdf)                    date: 2022-04-04 09:58:54
 (epstopdf)                    size: 8623 bytes
 (epstopdf)             Command: <repstopdf --outfile=MSU-Wordmark-White-eps-con
 verted-to.pdf MSU-Wordmark-White.eps>
-(epstopdf)             \includegraphics on input line 191.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 File: MSU-Wordmark-White-eps-converted-to.pdf Graphic file (type pdf)
 <use MSU-Wordmark-White-eps-converted-to.pdf>
 Package pdftex.def Info: MSU-Wordmark-White-eps-converted-to.pdf  used on input
- line 191.
+ line 194.
 (pdftex.def)             Requested size: 890.37137pt x 296.8145pt.
- [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./MSU-Wordmark-White-eps-converted-to.pdf> <./spartans.jpg>]
+ <./MSU-Wordmark-White-eps-converted-to.pdf> <./spartans.jpg> <./fig1.png>]
 \tf@nav=\write6
 \openout6 = `project_poster.nav'.
 
@@ -1261,10 +1269,10 @@ Package rerunfilecheck Info: File `project_poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25958 strings out of 478994
- 491488 string characters out of 5858184
- 1133051 words of memory out of 5000000
- 42824 multiletter control sequences out of 15000+600000
+ 25965 strings out of 478994
+ 491559 string characters out of 5858184
+ 1133397 words of memory out of 5000000
+ 42829 multiletter control sequences out of 15000+600000
  493822 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  145i,21n,146p,438b,1455s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1280,10 +1288,10 @@ pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr
 live/2021/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on project_poster.pdf (1 page, 149969 bytes).
+Output written on project_poster.pdf (1 page, 604616 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

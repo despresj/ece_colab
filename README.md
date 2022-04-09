@@ -31,9 +31,9 @@ Deliverables
 
 - [x]  Mar-13: Prep data, debug GAN and outline model
 - [x]  Mar-20: validate generated data
-- [x]  Mar-27: set up tests, and impliment additioal function generating dataframes
-- [x]  Apr-03: wrap all the code into functions and ensure data can flow from start to finish
-- [ ]  Apr-10: Draft poster and slide deck
-- [ ]  Apr-17: Clean up README push the limits of the model and eek out as much performance as possible
-- [ ]  Apr-24: Optimize
-- [ ]  Apr-26: Submit project Presetation day
+- [x]  Mar-27: set up tests, and impliment additioal function generating dataframes. Wrap all the code into functions. 
+- [x]  Apr-03: This mostly works for now. Really just pending quality checks.
+- [ ]  Apr-10: Ensure data can flow from start to finish. Make a list of all the arbitrary design decisions. Draft poster and slide deck
+- [ ]  Apr-17: push the limits of the model and eek out as much performance as possible
+- [ ]  Apr-24:
+

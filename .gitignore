@@ -1,13 +1,17 @@
+.DS_Store
 slides/
 going deeper with convolutions/
 saved_models/
 notebooks/dev.ipynb
 notebooks/debug_gan.py
 notebooks/terminal_use.ipynb
-.DS_Store
+notebooks/__pycache__/
+notebooks/helper_functions.py
 logs/
 data_clean/data_for_graphics/
 misc_data/
 data_clean/taxi.csv
-notebooks/__pycache__/
-notebooks/helper_functions.py
+.Rproj.user
+ece_colab.Rproj
+data_clean/graphics/
+graphics/
