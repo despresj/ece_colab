@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.18)  12 APR 2022 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.18)  13 APR 2022 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -982,60 +982,40 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \WF@everypar=\toks51
 Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithms/algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count349
-\float@exts=\toks52
-\float@box=\box80
-\@float@everytoks=\toks53
-\@floatcapt=\box81
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\@float@every@algorithm=\toks54
-\c@algorithm=\count350
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithms/algorithmic.sty
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count351
-\c@ALC@line=\count352
-\c@ALC@rem=\count353
-\c@ALC@depth=\count354
-\ALC@tlm=\skip68
-\algorithmicindent=\skip69
-)
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-5.
+3.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(./project_poster.aux)
+(./project_poster.aux
+
+LaTeX Warning: Label `fig:my-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-label' multiply defined.
+
+)
 \openout1 = `project_poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1073,17 +1053,17 @@ LaTeX Font Info:    ... okay on input line 15.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count355
+\scratchcounter=\count349
 \scratchdimen=\dimen313
-\scratchbox=\box82
-\nofMPsegments=\count356
-\nofMParguments=\count357
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count358
+\scratchbox=\box80
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count352
 \MPscratchDim=\dimen314
-\MPnumerator=\count359
-\makeMPintoPDFobject=\count360
-\everyMPtoPDFconversion=\toks56
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1093,7 +1073,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 13.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1105,61 +1085,61 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count361
+\c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
  (./project_poster.out) (./project_poster.out)
 \@outlinefile=\write5
 \openout5 = `project_poster.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 15.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 13.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 15.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 13.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 15.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 13.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 15.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 13.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 15.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 13.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 15.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 15.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 13.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 15.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 15.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 13.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 15.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 15.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 13.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 15.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 15.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 13.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 15.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 13.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 15.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 15.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 15.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 15.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 15.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 15.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 13.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1185,31 +1165,31 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./project_poster.nav)
-LaTeX Font Info:    Calculating math sizes for size <16.2> on input line 15.
+LaTeX Font Info:    Calculating math sizes for size <16.2> on input line 13.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-15.
+13.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-5.
+3.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-15.
+13.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <16.2> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 15.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <11.33994> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 15.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8.09999> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 15.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 13.
 Package epstopdf Info: Source file: <MSU-Wordmark-White.eps>
 (epstopdf)                    date: 2022-04-04 09:58:54
 (epstopdf)                    size: 446502 bytes
@@ -1218,24 +1198,29 @@ Package epstopdf Info: Source file: <MSU-Wordmark-White.eps>
 (epstopdf)                    size: 8623 bytes
 (epstopdf)             Command: <repstopdf --outfile=MSU-Wordmark-White-eps-con
 verted-to.pdf MSU-Wordmark-White.eps>
-(epstopdf)             \includegraphics on input line 15.
+(epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 <MSU-Wordmark-White-eps-converted-to.pdf, id=13, 325.215pt x 108.405pt>
 File: MSU-Wordmark-White-eps-converted-to.pdf Graphic file (type pdf)
 <use MSU-Wordmark-White-eps-converted-to.pdf>
 Package pdftex.def Info: MSU-Wordmark-White-eps-converted-to.pdf  used on input
- line 15.
+ line 13.
 (pdftex.def)             Requested size: 890.37137pt x 296.8145pt.
 <gan_diag.png, id=15, 707.64375pt x 248.93pt>
 File: gan_diag.png Graphic file (type png)
 <use gan_diag.png>
-Package pdftex.def Info: gan_diag.png  used on input line 99.
+Package pdftex.def Info: gan_diag.png  used on input line 105.
 (pdftex.def)             Requested size: 1197.07657pt x 421.10907pt.
-<gan_conv.png, id=17, 1124.2pt x 1124.2pt>
+<gan_conv.png, id=18, 1124.2pt x 1124.2pt>
 File: gan_conv.png Graphic file (type png)
 <use gan_conv.png>
-Package pdftex.def Info: gan_conv.png  used on input line 99.
+Package pdftex.def Info: gan_conv.png  used on input line 105.
 (pdftex.def)             Requested size: 1197.07657pt x 1197.15274pt.
+<gan_converging.png, id=19, 1156.32pt x 578.16pt>
+File: gan_converging.png Graphic file (type png)
+<use gan_converging.png>
+Package pdftex.def Info: gan_converging.png  used on input line 105.
+(pdftex.def)             Requested size: 1197.07657pt x 598.57268pt.
 
 (./project_poster.bbl
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <19.44> not available
@@ -1249,16 +1234,27 @@ Package epstopdf Info: Source file: <MSU-Wordmark-White.eps>
 (epstopdf)                    size: 8623 bytes
 (epstopdf)             Command: <repstopdf --outfile=MSU-Wordmark-White-eps-con
 verted-to.pdf MSU-Wordmark-White.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
 File: MSU-Wordmark-White-eps-converted-to.pdf Graphic file (type pdf)
 <use MSU-Wordmark-White-eps-converted-to.pdf>
 Package pdftex.def Info: MSU-Wordmark-White-eps-converted-to.pdf  used on input
- line 99.
+ line 105.
 (pdftex.def)             Requested size: 890.37137pt x 296.8145pt.
  [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./MSU-Wordmark-White-eps-converted-to.pdf> <./gan_diag.png> <./gan_conv.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{fig:my-label}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.105 	\end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{fig:my-label}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.105 	\end{frame}
+                   <./MSU-Wordmark-White-eps-converted-to.pdf> <./gan_diag.png>
+ <./gan_conv.png> <./gan_converging.png>]
 \tf@nav=\write6
 \openout6 = `project_poster.nav'.
 
@@ -1269,25 +1265,28 @@ Package pdftex.def Info: MSU-Wordmark-White-eps-converted-to.pdf  used on input
 \openout8 = `project_poster.snm'.
 
  (./project_poster.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `project_poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25914 strings out of 478994
- 488226 string characters out of 5858184
- 901443 words of memory out of 5000000
- 42772 multiletter control sequences out of 15000+600000
- 464287 words of font info for 65 fonts, out of 8000000 for 9000
+ 25692 strings out of 478994
+ 485493 string characters out of 5858184
+ 905465 words of memory out of 5000000
+ 42562 multiletter control sequences out of 15000+600000
+ 467076 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 145i,21n,146p,673b,927s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 145i,21n,146p,673b,945s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/lm/lmsso17.pfb>
-Output written on project_poster.pdf (1 page, 1491356 bytes).
+Output written on project_poster.pdf (1 page, 2834891 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 52 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,6 @@
 \documentclass{msuposter}
 \usepackage{lipsum}
 \usepackage{tikz,wrapfig}
-\usepackage{algorithm}
-\usepackage{algorithmic}
 %% REQUIRED
 \title{Using GANs to Generate Synthetic Data}
 \author{Joseph Despres and Yunus Shariff}
@@ -42,10 +40,11 @@ Since These data will be generated, confidentially is less of a concern. Therefo
 
 \begin{block}{Method}
 
-The challenges with training a GAN to generate synthetic data is a row in a dataframe is several orders of magnitude smaller than a full image. An artificial nerual network has no difficulty fitting to it. The challenge is getting the right fit. This is a ballance between fitting the data so well it mimics the data seen and underfitting where it cannot generate. Therefor  where the process could be generative yet, 
+The challenges associated with training a GAN to generate synthetic data is a row in a data frame is several orders of magnitude smaller than a full image. An artificial nerual network has no difficulty fitting to it. The challenge is getting the right fit. This is a ballance between fitting the data so well it mimics the data seen and underfitting where it cannot generate. Therefor  where the process could be generative yet, 
 
 \begin{figure}
   \includegraphics[width=\linewidth]{gan_diag.png}
+    	\caption{\label{fig:my-label} Basic GAN Architecture}
 \end{figure}
 
 \newpage 
@@ -63,26 +62,33 @@ The challenges with training a GAN to generate synthetic data is a row in a data
 
 \begin{block}{Experiment}
 
+Here we will use a curitated dataset to generate synthetic copies.This project we use New York City Taxi from 2016\cite{nyc2016}. After assembling the GAN archetecture, we will train a GAN on a subset of the data, then retrain adding more and more datapoints. 
+
 \begin{figure}
   \includegraphics[width=\linewidth]{gan_conv.png}
+      	\caption{\label{fig:my-label} GAN Generating Synthetic Data}
 \end{figure}
 
-This project we use New York City Taxi from 2016. Primarily because of well collected. data from the N 
 
-\cite{nyc2016}
 
 \end{block}
-
-\begin{block}{Results}
-
-\end{block}
-
-
 \end{column}
 
 %% COLUMN DIVIDE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{column}{\colwidth}
+
+
+\begin{block}{Results}
+
+Training this GAN optimizes a neural network to train a generator that is able to output data that in indistinguishable by discriminator. Notice In Figure 3, the GAN is able to fool the discriminator in training. This is on a log-scale because during this process the discriminator.
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{gan_converging.png}
+  	\caption{\label{fig:my-label} GAN Training Metrics}
+\end{figure}
+\end{block}
+
 
 
 \begin{block}{References}
