@@ -36,4 +36,4 @@ Deliverables
 - [ ]  Apr-10: Ensure data can flow from start to finish. Make a list of all the arbitrary design decisions. Draft poster and slide deck
 - [ ]  Apr-17: push the limits of the model and eek out as much performance as possible
 - [ ]  Apr-24:
-
+- [ ]  Apr-26: presentation day
