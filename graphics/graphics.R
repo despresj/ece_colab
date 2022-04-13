@@ -58,8 +58,8 @@ animated_conv <- df %>%
   theme(legend.position="bottom") +
   transition_reveal(iter)
 
-animate(animated_conv, height = 9, width = 16, units = "in", res = 150)
-anim_save("graphics/convergence.gif")
+# animate(animated_conv, height = 9, width = 16, units = "in", res = 150)
+# anim_save("graphics/convergence.gif")
 
 
 library(gt)
@@ -112,7 +112,7 @@ table_data %>%
     title = "Minimal Example",
     subtitle = "Generate fake data, append to real, and train GAN"
   ) %>% 
-  data_color(is_real, color="skyblue") %>% 
+  # data_color(is_real, color="skyblue") %>% 
   gtsave("tab_3.png",  path = "graphics/"
   )
 
@@ -130,7 +130,7 @@ table_data %>%
     title = "Minimal Example",
     subtitle = "Estimated probability data is real"
   ) %>% 
-  data_color(probability_is_real, color="khaki1") %>% 
+  data_color(probability_is_real, color="#00463b") %>% 
   gtsave("tab_3_5.png",  path = "graphics/"
   )
 
@@ -148,7 +148,7 @@ table_data %>%
     title = "Minimal Example",
     subtitle = "Estimated probability data is real"
   ) %>% 
-  data_color(probability_is_real, color="khaki1") %>% 
+  data_color(probability_is_real, color="#00463b") %>% 
   gtsave("tab_4.png",  path = "graphics/"
   )
 
@@ -166,7 +166,7 @@ table_data %>%
     title = "Minimal Example",
     subtitle = "Estimated probability data is real"
   ) %>% 
-  data_color(probability_is_real, color="khaki1") %>% 
+  data_color(probability_is_real, color="#00463b") %>% 
   gtsave("tab_5.png",  path = "graphics/"
   )
 
@@ -184,7 +184,7 @@ table_data %>%
     title = "Minimal Example",
     subtitle = "Estimated probability data is real"
   ) %>% 
-  data_color(probability_is_real, color="khaki1") %>% 
+  data_color(probability_is_real, color="#00463b") %>% 
   gtsave("tab_6.png",  path = "graphics/"
   )
 
@@ -202,6 +202,6 @@ table_data %>%
     title = "Minimal Example",
     subtitle = "Train GAN until generated data is indistinguishable from real data"
   ) %>% 
-  data_color(probability_is_real, color="khaki1") %>% 
+  data_color(probability_is_real, color="#00463b") %>% 
   gtsave("tab_7.png",  path = "graphics/"
   )
