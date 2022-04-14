@@ -15,3 +15,4 @@ data_clean/taxi.csv
 ece_colab.Rproj
 data_clean/graphics/
 graphics/
+data_clean/gan_gen21_lowneurons.csv
