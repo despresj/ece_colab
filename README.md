@@ -26,6 +26,10 @@ Deliverables
 2. A slide deck
 3. A confrence styly poster
 
+Reading if you get around to it
+
+[wasserstein gan](https://www.alexirpan.com/2017/02/22/wasserstein-gan.html)
+[someone using this for unballanced assignment](https://www.toptal.com/machine-learning/generative-adversarial-networks)
 
 ## Timeline and Benchmarks
 
@@ -33,7 +37,7 @@ Deliverables
 - [x]  Mar-20: validate generated data
 - [x]  Mar-27: set up tests, and impliment additioal function generating dataframes. Wrap all the code into functions. 
 - [x]  Apr-03: This mostly works for now. Really just pending quality checks.
-- [ ]  Apr-10: Ensure data can flow from start to finish. Make a list of all the arbitrary design decisions. Draft poster and slide deck
-- [ ]  Apr-17: push the limits of the model and eek out as much performance as possible
-- [ ]  Apr-24:
+- [x]  Apr-10: draft poster and slide deck
+- [ ]  Apr-17: Ensure data can flow from start to finish. Make a list of all the arbitrary design decisions. push the limits of the model and eek out as much performance as possible
+- [ ]  Apr-24: 
 - [ ]  Apr-26: presentation day
