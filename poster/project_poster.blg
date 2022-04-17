@@ -8,45 +8,45 @@ I was expecting a `,' or a `}'---line 16 of file references.bib
  :   title = {Yellow Taxi Trip Data},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 2 entries,
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            508 strings with 4431 characters,
-and the built_in function-call counts, 801 in all, are:
-= -- 58
-> -- 73
+            514 strings with 4560 characters,
+and the built_in function-call counts, 1009 in all, are:
+= -- 79
+> -- 80
 < -- 1
-+ -- 27
-- -- 25
-* -- 65
-:= -- 147
-add.period$ -- 5
-call.type$ -- 2
-change.case$ -- 15
++ -- 30
+- -- 27
+* -- 74
+:= -- 187
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 21
-empty$ -- 52
-format.name$ -- 25
-if$ -- 156
+cite$ -- 3
+duplicate$ -- 31
+empty$ -- 69
+format.name$ -- 27
+if$ -- 198
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 11
-num.names$ -- 6
-pop$ -- 22
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 16
+num.names$ -- 8
+pop$ -- 24
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 17
 quote$ -- 0
-skip$ -- 20
+skip$ -- 28
 stack$ -- 0
-substring$ -- 10
-swap$ -- 4
+substring$ -- 15
+swap$ -- 5
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 12
 warning$ -- 0
-while$ -- 5
-width$ -- 3
-write$ -- 19
+while$ -- 7
+width$ -- 4
+write$ -- 30
 (There was 1 error message)

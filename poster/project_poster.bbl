@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{hung}
+Hung Ba.
+\newblock Improving detection of credit card fraudulent transactions using
+  generative adversarial networks.
+\newblock {\em CoRR}, abs/1907.03355, 2019.
+
 \bibitem{NIPS2014_5ca3e9b1}
 Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
   Sherjil Ozair, Aaron Courville, and Yoshua Bengio.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.18)  15 APR 2022 13:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.18)  16 APR 2022 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,6 +1208,9 @@ Package pdftex.def Info: MSU-Wordmark-White-eps-converted-to.pdf  used on input
 (pdftex.def)             Requested size: 890.37137pt x 296.8145pt.
 
 
+LaTeX Warning: Citation `map' on page 1 undefined on input line 107.
+
+
 LaTeX Warning: Citation `hung' on page 1 undefined on input line 107.
 
 <gan_diag.png, id=15, 707.64375pt x 248.93pt>
@@ -1227,7 +1230,7 @@ Package pdftex.def Info: gan_converging.png  used on input line 107.
 (pdftex.def)             Requested size: 1197.07657pt x 598.57268pt.
 (./project_poster.bbl
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <19.44> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 8.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 7.
 )
 Package epstopdf Info: Source file: <MSU-Wordmark-White.eps>
 (epstopdf)                    date: 2022-04-04 09:58:54
@@ -1278,21 +1281,21 @@ Package rerunfilecheck Info: File `project_poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25692 strings out of 478994
- 485493 string characters out of 5858184
- 906733 words of memory out of 5000000
- 42562 multiletter control sequences out of 15000+600000
+ 25695 strings out of 478994
+ 485528 string characters out of 5858184
+ 906957 words of memory out of 5000000
+ 42564 multiletter control sequences out of 15000+600000
  467076 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 145i,21n,146p,673b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 145i,21n,146p,683b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/lm/lmsso17.pfb>
-Output written on project_poster.pdf (1 page, 2835203 bytes).
+Output written on project_poster.pdf (1 page, 2836185 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 55 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
