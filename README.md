@@ -1,6 +1,6 @@
 ## Neural Network Project
 
-The goal here is to generate additional data samples from a structured dataset using a Generative Adversarial Network. 
+The goal here is to generate additional data samples from a structured dataset using a Generative Adversarial Network. See our poster [here](https://github.com/despresj/ece_colab/blob/main/poster/project_poster.pdf).
 
 # Replication instructions
 
@@ -63,16 +63,16 @@ for _ in range(5000):
 ```
 
 ## Basic Structure of a GAN[2]
-![](readme_pics/nn.png)
+![](pics/nn.png)
 
 
-![](readme_pics/example.png)
-![](readme_pics/example1.png)
+![](pics/example.png)
+![](pics/example1.png)
 
 ### See the majority of the data generated are plausable.
 
 Although plausable, these require significant curiation.
-![](readme_pics/result.png)
+![](pics/result.png)
 
 
-![](readme_pics/ref.png)
+![](pics/ref.png)
