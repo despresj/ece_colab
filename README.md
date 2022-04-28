@@ -34,6 +34,7 @@ import and scale the data. Note that any tabular data set with numeric columns w
 
 ```python
 df = pd.read_csv("data_clean/taxi_sample.csv") # data is a small subset of the full nyc taxi data
+# obtain the full data for 2016 here
 data_columns = df.columns
 scaler = MinMaxScaler().fit(df)
 df = scaler.transform(df)
