@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.18)  16 APR 2022 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.18)  28 APR 2022 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -995,6 +995,9 @@ LaTeX Warning: Label `fig:my-label' multiply defined.
 
 LaTeX Warning: Label `fig:my-label' multiply defined.
 
+
+LaTeX Warning: Label `fig:my-label' multiply defined.
+
 )
 \openout1 = `project_poster.aux'.
 
@@ -1206,32 +1209,41 @@ File: MSU-Wordmark-White-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: MSU-Wordmark-White-eps-converted-to.pdf  used on input
  line 13.
 (pdftex.def)             Requested size: 890.37137pt x 296.8145pt.
-
-
-LaTeX Warning: Citation `map' on page 1 undefined on input line 107.
-
-
-LaTeX Warning: Citation `hung' on page 1 undefined on input line 107.
-
-<gan_diag.png, id=15, 707.64375pt x 248.93pt>
+<gan_diag.png, id=15, 733.74126pt x 249.93375pt>
 File: gan_diag.png Graphic file (type png)
 <use gan_diag.png>
-Package pdftex.def Info: gan_diag.png  used on input line 107.
-(pdftex.def)             Requested size: 1197.07657pt x 421.10907pt.
-<gan_conv.png, id=18, 1124.2pt x 1124.2pt>
+Package pdftex.def Info: gan_diag.png  used on input line 133.
+(pdftex.def)             Requested size: 1197.07657pt x 407.81935pt.
+LaTeX Font Info:    Calculating math sizes for size <33.59> on input line 133.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <33.59> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 133.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <23.5129> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 133.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <16.795> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 133.
+<gan_conv.png, id=19, 1124.2pt x 1124.2pt>
 File: gan_conv.png Graphic file (type png)
 <use gan_conv.png>
-Package pdftex.def Info: gan_conv.png  used on input line 107.
+Package pdftex.def Info: gan_conv.png  used on input line 133.
 (pdftex.def)             Requested size: 1197.07657pt x 1197.15274pt.
-<gan_converging.png, id=19, 1156.32pt x 578.16pt>
+<gan_converging.png, id=20, 1156.32pt x 578.16pt>
 File: gan_converging.png Graphic file (type png)
 <use gan_converging.png>
-Package pdftex.def Info: gan_converging.png  used on input line 107.
+Package pdftex.def Info: gan_converging.png  used on input line 133.
 (pdftex.def)             Requested size: 1197.07657pt x 598.57268pt.
+<generated_map.png, id=21, 1511.4066pt x 1068.8733pt>
+File: generated_map.png Graphic file (type png)
+<use generated_map.png>
+Package pdftex.def Info: generated_map.png  used on input line 133.
+(pdftex.def)             Requested size: 1197.07657pt x 846.58618pt.
+
 (./project_poster.bbl
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <19.44> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 7.
 )
+Overfull \vbox (2.63533pt too high) detected at line 133
+ []
+
 Package epstopdf Info: Source file: <MSU-Wordmark-White.eps>
 (epstopdf)                    date: 2022-04-04 09:58:54
 (epstopdf)                    size: 446502 bytes
@@ -1240,27 +1252,32 @@ Package epstopdf Info: Source file: <MSU-Wordmark-White.eps>
 (epstopdf)                    size: 8623 bytes
 (epstopdf)             Command: <repstopdf --outfile=MSU-Wordmark-White-eps-con
 verted-to.pdf MSU-Wordmark-White.eps>
-(epstopdf)             \includegraphics on input line 107.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 File: MSU-Wordmark-White-eps-converted-to.pdf Graphic file (type pdf)
 <use MSU-Wordmark-White-eps-converted-to.pdf>
 Package pdftex.def Info: MSU-Wordmark-White-eps-converted-to.pdf  used on input
- line 107.
+ line 133.
 (pdftex.def)             Requested size: 890.37137pt x 296.8145pt.
- [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:my-label}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.107 	\end{frame}
+l.133 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{fig:my-label}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.107 	\end{frame}
+l.133 	\end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{fig:my-label}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.133 	\end{frame}
                    <./MSU-Wordmark-White-eps-converted-to.pdf> <./gan_diag.png>
- <./gan_conv.png> <./gan_converging.png>]
+ <./gan_conv.png> <./gan_converging.png> <./generated_map.png>]
 \tf@nav=\write6
 \openout6 = `project_poster.nav'.
 
@@ -1270,10 +1287,8 @@ l.107 	\end{frame}
 \tf@snm=\write8
 \openout8 = `project_poster.snm'.
 
- (./project_poster.aux)
 
-LaTeX Warning: There were undefined references.
-
+(./project_poster.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1281,21 +1296,26 @@ Package rerunfilecheck Info: File `project_poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25695 strings out of 478994
- 485528 string characters out of 5858184
- 906957 words of memory out of 5000000
- 42564 multiletter control sequences out of 15000+600000
- 467076 words of font info for 66 fonts, out of 8000000 for 9000
+ 25742 strings out of 478994
+ 486526 string characters out of 5858184
+ 956330 words of memory out of 5000000
+ 42610 multiletter control sequences out of 15000+600000
+ 493186 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 145i,21n,146p,683b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf
--dist/fonts/type1/public/lm/lmsso17.pfb>
-Output written on project_poster.pdf (1 page, 2836185 bytes).
+ 145i,21n,146p,985b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
+e/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-d
+ist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/lm/lmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/l
+m/lmss17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on project_poster.pdf (1 page, 18180362 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
