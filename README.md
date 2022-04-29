@@ -40,12 +40,13 @@ scaler = MinMaxScaler().fit(df)
 df = scaler.transform(df)
 ```
 
-Train and generate data.
+Train and generate data. The project was done in Google Colab, however this is designed to produce output locally. For the best results use the full dataset.
 
 ```python
 for _ in range(5000):
-    # these GANS often converge to one point,
-    # these randomized hyper parameters prevent it getting stuck on one solution
+    # these GANS often converge to one point, these randomized hyper parameters
+    # prevent it getting stuck on one solution. Also, these are appropriate for 
+    # this taxi data another  dataset would require different randomized archatecture
     neurons = np.random.randint(8, 25)
     hidden = np.random.randint(5, 10)
     noise_n = np.random.randint(125, 150)
@@ -71,7 +72,7 @@ for _ in range(5000):
 
 ### See the majority of the data generated are plausable.
 
-Although plausable, these require significant curiation.
+Although plausable, these require significant curiation hence the cavilar approach to the neural network archatectr.
 ![](pics/result.png)
 
 
