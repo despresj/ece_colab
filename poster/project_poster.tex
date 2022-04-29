@@ -104,7 +104,7 @@ This method is able to generate synthetic taxi rides. Notice in Figure 4 generat
 \begin{figure}
   \includegraphics[width=\linewidth]{generated_map.png}
   	\caption{\label{fig:my-label} Probability data are real}
-\end{figure} m
+\end{figure} 
 
 
 \end{block}
@@ -112,7 +112,7 @@ This method is able to generate synthetic taxi rides. Notice in Figure 4 generat
 
 \begin{block}{Limitations and Further Study}
 
-Despite the shallow architecture, this is quite expensive. This is because when our GANs converge it is often converging on a single generated point. To remedy this, we retrain the GAN using a slightly different architecture often generating a random number of neurons, layers, and learning rates. This adds variation to the system by using a random Neural Network architecture. Additional study would involve data verification that does not involve a visual inspection. The need for visual inspection limits the type of applications this can be useful because most data will not be easy to verify. Also, using multiple datasets as well as adding convolutions to this network. This is the beginning of what could be a helpful method. 
+Despite the shallow architecture, this is quite expensive considering data generation methods such bootstrapping and boosting. The main cost is due to our GANs converging a whole network generating point regardless of input. Usually it is a plausible data point, but no guarantees. To remedy this, we retrain the GAN using a slightly different architecture often generating a random number of neurons, layers, and learning rates. This adds variation to the system by using a random Neural Network architecture. Additional study would involve data verification that does not involve a visual inspection. The need for visual inspection limits the type of applications this can be useful because most data will not be easy to verify. Also, using multiple datasets as well as adding convolutions to this network. This is the beginning of what could be a helpful method. 
 
 \end{block}
 
