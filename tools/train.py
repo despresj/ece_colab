@@ -5,26 +5,32 @@ from tensorflow import keras
 
 def build_network(output_dim, n_hidden, n_neurons, learning_rate):
 
-    """
+    """Assembles the neural network architecture.
+    Parameters
+    -------
+    output_dim : array
+        this is the dimension we wish the output to be
+        Case 1 Generator output (n, n_columns) of data we wish to generate
+        Case 2 Discriminator output (n, 1) probability vector p(data_real|data)
 
-    output_dim: what do we want this to output
-    Generator output n_columns of data
-    Discriminator output 1, p(data_real|data_seen)
+    n_hiden : int 
+        number of layers of the neural net
 
-    n_hiden: number of layers of the neural net
+    n_neurons : int 
+        number of neuros in the network
 
-    n_neurons: number of neuros in the network
+    learning_rate : float
+        learning rate through the network 
 
-    learning_rate: duhhh
-
-    This outputs a keras neural net
-    
+    Returns
+    -------
+    This outputs a keras neural net ready to be trained.
     """
     model = keras.models.Sequential()
     model.add(keras.layers.Flatten())
     for _ in range(n_hidden):
         model.add(keras.layers.Dense(n_neurons, activation="selu"))
-        # model.add(keras.layers.BatchNormalization())
+        model.add(keras.layers.BatchNormalization())
     model.add(keras.layers.Dense(output_dim + 3, activation="selu"))  
     model.add(keras.layers.Dense(output_dim, activation="sigmoid"))
     optimizer = keras.optimizers.SGD(learning_rate=learning_rate)
@@ -34,35 +40,35 @@ def build_network(output_dim, n_hidden, n_neurons, learning_rate):
 def train_gan(
     generator, discriminator, dataset, n_epochs=100, n_noise=20000
 ):
-    """
-    # TODO: UPDATE ARGS
-    Inputs: 
-
-    gan, this is a keras gan object made by combining two neural nets and
-    restricting the trainability of one of them.
-
-    dataset, this takes in regular tabular data. now this is training rowwise
-    however i may change this to matrix wise like a picture.
-
-    n_epochs, numper of times the gans go though training iterationations
-
-    iterationations, number of times in gan iterationaton loop, 
-    it would be a good idea to reduct this after the warmup period
-
-    n_noise, this is the size of fake data generated
-
+    """This function trains the GAN
+    Parameters
+    -------- 
+    generator : keras object
+        input an assembled keras neural network. It is critical that
+        its output is the same width but can be any length (n, n_cols) 
+        format as the data going in. 
     
-    Output:
+    discriminator : keras object
+        input an assembeld keras neural network. This must have a single
+        value of an output of the same length as the generator. (n, 1)
 
-    generators_saved, this is an iterationable list of keras objects that can be used
-    
-    discriminators_saved, same thing, these can be used to test
+    dataset : numpy array
+        This takes an (n_row, n_col) numpy array. This is the data that
+        you wish to generate more samples of
 
-    for generator, discriminator in zip(gen, desc):
-        noise = tf.random.normal(shape=dims)
-        generated_data = generator(noise)
-        judgement = discriminator(generated_data) # probs data is real
+    n_epochs : int
+        this is the number of times the network trains before outputting a
+        result
+
+    n_noise : int
+        This is the number of generated samples to make, as it will be just
+        transformed noise.
+    Returns
+    -------
+    numpy array
+        this is the generated datasamples
     """
+
     gan = keras.models.Sequential([generator, discriminator])
   
     discriminator.compile(loss="binary_crossentropy", optimizer="rmsprop")
