@@ -10,6 +10,7 @@ Begin by cloning the repo and installing the packages
 
 ```zsh
 git clone https://github.com/despresj/ece_colab.git
+cd ece_colab
 python3 -m venv ece884_project_enviroment
 source ece884_project_enviroment/bin/activate
 pip install -r requirements.txt
